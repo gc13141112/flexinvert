@@ -26,4 +26,10 @@
     integer iomode_xycoord
     !parameter (iomode_xycoord=iomode_xycoord_latlon) ! use this for x,y in/out as lat/lon
     !parameter (iomode_xycoord=iomode_xycoord_meters) ! use this for x,y in/out as meters
-    
+    ! If input and output of x,y coordinates is to be in degrees of geographical latitude/longitude, then set 
+    iomode_xycoord = iomode_xycoord_latlon. Most users would probably want to run this way.
+    ! If input and output of x,y coordinates is to be in meters on the WRF outermost grid, then set iomode_xycoord
+    = iomode_xycoord_meters.
+    This was used for development/testing, and is provided as an option. Note that the meters units are used internally
+    for calculating particle positions. When lat/lon input/output is selected, the x,y coordinates are transformed between 
+    lat/lon and meters during input/output.
