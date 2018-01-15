@@ -4,3 +4,10 @@
 ## lapack安装步骤
     主要借鉴于http://blog.csdn.net/mlnotes/article/details/9676269
     a.首先cp make.inc.example make.inc
+    b.编译blas， 进入BLAS文件夹，执行以下几条命令
+        make
+    c.编译cblas， 进入CBLAS文件夹
+        make
+    d.编译lapack以及lapacke
+        进入lapacke  make
+        进入主目录   make
