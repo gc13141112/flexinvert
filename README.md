@@ -12,4 +12,4 @@
         进入lapacke  make
         进入主目录   make
 ## flexinvert 安装
-    参考自己的Makefile
+    参考自己的Makefile
