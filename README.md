@@ -31,5 +31,5 @@
     ! If input and output of x,y coordinates is to be in meters on the WRF outermost grid, then set iomode_xycoord
     = iomode_xycoord_meters.
     This was used for development/testing, and is provided as an option. Note that the meters units are used internally
-    for calculating particle positions. When lat/lon input/output is selected, the x,y coordinates are transformed between 
+    for calculating particle positions. When lat/lon input/output is selected, the x,y coordinates are transformed between 
     lat/lon and meters during input/output.
