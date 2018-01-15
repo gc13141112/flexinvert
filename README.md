@@ -16,3 +16,6 @@
 ## FLEXPART
     http://mp.weixin.qq.com/s/lg7ZNBqZXYfKSgCVLUmagw  安装说明
     https://www.flexpart.eu/wiki/FpLimitedareaWrf     官网说明
+    
+    下载完后解压，你会得到一个存放了.f90文件的源代码文件夹。通常情况下只需要使用makefile编译就好。可是！FLEXPART有几个超级坑爹的地方：
+    首先，为了提高运算效率，提前分配好内存空间，FLEXPART中变量的维数并不能通过namelist进行修改，而是直接在编译前通过修改源代码而实现！！所以请打开par_mod.f90文件，并找到126行，修改之后作为输入场的WRF模式维度信息：
