@@ -9,5 +9,5 @@
     c.编译cblas， 进入CBLAS文件夹
         make
     d.编译lapack以及lapacke
-        进入lapacke  make
-        进入主目录   make
+        进入lapacke  make
+        进入主目录   make
