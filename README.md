@@ -13,3 +13,5 @@
         进入主目录   make
 ## flexinvert 安装
     参考自己的Makefile
+## FLEXPART
+    http://mp.weixin.qq.com/s/lg7ZNBqZXYfKSgCVLUmagw
