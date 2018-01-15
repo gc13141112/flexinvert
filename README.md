@@ -21,3 +21,10 @@
     首先，为了提高运算效率，提前分配好内存空间，FLEXPART中变量的维数并不能通过namelist进行修改，而是直接在编译前通过修改源代码而实现！！所以请打开par_mod.f90文件，并找到126行，修改之后作为输入场的WRF模式维度信息：
     
     其次，要修改的不仅仅是par_mod.f90，还有一个叫做includepar的文件。这个没有后缀名的东西其实是FLEXPART fortran代码的include文件，里面同样包含了变量的维度信息，而且还包含了模式输出的坐标信息。通过修改：
+    
+    integer iomode_xycoord_latlon, iomode_xycoord_meters
+    parameter (iomode_xycoord_latlon=0, iomode_xycoord_meters=1)
+    integer iomode_xycoord
+    !parameter (iomode_xycoord=iomode_xycoord_latlon) ! use this for x,y in/out as lat/lon
+    !parameter (iomode_xycoord=iomode_xycoord_meters) ! use this for x,y in/out as meters
+    
