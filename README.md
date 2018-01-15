@@ -34,4 +34,4 @@
     for calculating particle positions. When lat/lon input/output is selected, the x,y coordinates are transformed between 
     lat/lon and meters during input/output.
     
-    为了顺利编译请使用netcdf4c版本即用mpifort编译netcdf,且使用它们编译.
+    为了顺利编译请使用netcdf4c版本即用mpifort编译netcdf,且使用它们编译.
