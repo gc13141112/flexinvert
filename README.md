@@ -14,5 +14,5 @@
 ## flexinvert 安装
     参考自己的Makefile
 ## FLEXPART
-    http://mp.weixin.qq.com/s/lg7ZNBqZXYfKSgCVLUmagw  安装说明
-    https://www.flexpart.eu/wiki/FpLimitedareaWrf     官网说明
+    http://mp.weixin.qq.com/s/lg7ZNBqZXYfKSgCVLUmagw  安装说明
+    https://www.flexpart.eu/wiki/FpLimitedareaWrf     官网说明
