@@ -11,3 +11,5 @@
     d.编译lapack以及lapacke
         进入lapacke  make
         进入主目录   make
+## flexinvert 安装
+    参考自己的Makefile
